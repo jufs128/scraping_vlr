@@ -26,7 +26,7 @@ The notebook in this repository scrapes data from vlr.gg, creating three differe
   - Attacking_Score_2: number of rounds won by the second team on attack
   - Defending_Score_2: number of rounds won by the second team on defense
 
-**• players.csv(player_info_df):**
+**• players.csv (player_info_df):**
   - Match_URL: completing URL for the match this stats refer to (paste after 'vlr.gg')
   - Map_ID: identifier for the map this stats refer to
   - Team_URL: completing URL for the player's team (paste after 'vlr.gg')
@@ -85,4 +85,4 @@ The notebook in this repository scrapes data from vlr.gg, creating three differe
 
 **Parameters to alter:**
 - You can alter the number of pages the algorithm will go through and the starting page when calling the function _get_stats()_ on cell number 8.
-- This code currently filters for tournaments with "Challengers" or "Champions" included in the name, this can aldo be altered on cell number 8, inside the function _get_stats()_.
+- This code currently filters for tournaments with "Challengers" or "Champions" included in the name, this can also be altered on cell number 8, inside the function _get_stats()_.
