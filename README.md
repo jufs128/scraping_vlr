@@ -32,7 +32,7 @@ The notebook in this repository scrapes data from vlr.gg, creating three differe
   - Team_URL: completing URL for the player's team (paste after 'vlr.gg')
   - Player_Name: nickname of the player
   - Player_URL: completing URL for the player (paste after 'vlr.gg')
-  - Agents: agent
+  - Agents: agent played on map
   - Rating Attacking: player's rating on attack
   - Rating Defending: player's rating on defense
   - Rating: player's general rating
